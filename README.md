@@ -14,7 +14,7 @@ Behavior | Input | Output
 --- | --- | ---
  **Numbers that contain a 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that"** | User input: "3" | Output: "I'm sorry, Dave. I'm afraid I can't do that"
  **Numbers that contain a 2 are replaced with "Boop!"** | User Input: "2" | Output: "Boop!"
- **Numbers that contain a 1 are replaced with** | Input: "1"  Output: "Beep!"
+ **Numbers that contain a 1 are replaced with** | Input: "1" | Output: "Beep!"
  **Numbers that contain neither 3, 2, or 1 output number** | User input: "4" | Output: "4"
  **Numbers above 0 that contain a 1 are replaced with "Beep!" and 1 takes priority** | User Input: "11" | Output:(0, "Beep!", "Boop!"... "Beep!")
  **Numbers above 0 that contain a 2 are replaced with "Boop!" and 1 takes priority** | User Input: "24" | Output: (0, "Beep!", "Boop!"... "Boop!")
