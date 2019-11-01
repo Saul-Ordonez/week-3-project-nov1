@@ -1,6 +1,6 @@
 # Week 3 Project (Beep Boop)
 
-#### Application takes user input and returns translated version, Nov. 1, 2019
+#### Application takes user input and returns translated version. Nov. 1, 2019
 
 #### By **Saul Ordonez**
 
@@ -23,8 +23,8 @@ There are no known bugs at this time but may be subject to change.
 
 If there are any issues or bugs the developer may not be aware of please contact at:
 
-## * saul_ordonez@gmail.com
-## * (503)-382-9034
+#### * saul_ordonez@gmail.com
+#### * (503)-382-9034
 
 ## Technologies Used
 
