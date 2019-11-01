@@ -13,22 +13,22 @@ function beepBoop(userInput) {
   // var sorry = "I'm sorry Dave, I'm afraid I cannot do that.";
   var outputArray = [];
 
-  for (i = 0; i <= userInput; i++); {
-    if (i.toString().includes('3')) {
-      outputArray.push(" I'm sorry Dave, I'm afraid I cannot do that. ")
+  for (i = 0; i < userInput.length; i++); {
+    if (i === 3) {
+      outputArray.push(" I'm sorry Dave, I'm afraid I cannot do that. ");
     }
-    else if (i.toString().includes('0')) {
+    else if (i === 2) {
       outputArray.push(' boop! ');
     }
-    else if (i.toString().includes('1')) {
-      outputArray.push(' beep! ')
+    else if (i === 1) {
+      outputArray.push(' beep! ');
     }
     else {
       outputArray.push(i);
     }
   }
   return outputArray;
-console.log(outputArray);
+
 }
 
 //front-end logic
@@ -36,6 +36,6 @@ $(document).ready(function() {
   $('form#numbers').submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($('input#inputNumbers').val());
-    $('#result').text(beepBoop(userInput));
+    $('#results').text((userInput));
   });
 });
