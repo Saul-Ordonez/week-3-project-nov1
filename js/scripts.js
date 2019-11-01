@@ -8,6 +8,12 @@ function inputCheck(userInput) {
   }
 }
 
+var beep = 'Beep!';
+var boop = 'Boop!';
+var sorry = "I'm sorry Dave, I'm afraid I cannot do that.";
+var outputArray = [];
+
+
 
 
 //front-end logic
@@ -15,7 +21,7 @@ $(document).ready(function() {
   $('form#numbers').submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($('input#inputNumbers').val());
-    $('.output').append()
+
 
 
   });
