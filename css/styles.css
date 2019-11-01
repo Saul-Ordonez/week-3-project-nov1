@@ -27,3 +27,9 @@ h1 {
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: black;
 }
+
+.well {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
