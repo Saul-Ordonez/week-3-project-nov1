@@ -1,4 +1,12 @@
 //Back-End logic//
+function checkInput(userInput) {
+  if (isNaN(userInput)) {
+    alert("Please enter a valid number.");
+  }
+  else if (userInput < 0) {
+    alert("Please enter a positive number.");
+  }
+}
 
 function beepBoop(userInput) {
   var outputArray = []
