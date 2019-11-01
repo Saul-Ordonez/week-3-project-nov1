@@ -5,16 +5,25 @@
 .jumbotron {
   text-align: center;
   background-image: url('https://i.ytimg.com/vi/rpWrtXyEAN0/maxresdefault.jpg');
-  text-shadow: black;
-
 }
-#numbers {
+#inputGroup {
   text-align: center;
 }
 body {
  background-color: #063015;
 }
 
-#textLabel {
+#numberLabel {
   color: white;
+}
+
+#nameLabel {
+  color: white;
+}
+
+h1 {
+  color: black;
+-webkit-text-fill-color: white;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
 }
