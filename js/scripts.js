@@ -1,14 +1,4 @@
 //Back-End logic//
-// function checkUserInput(userInput) {
-//   if (isNaN(userInput)) {
-//     alert('Please enter a valid number.');
-//     console.log(userInput);
-//   }
-//   else if (userInput < 0) {
-//     alert('Please enter a positive number.');
-//   }
-// }
-
 function beepBoop(userInput) {
   var outputArray = []
 
@@ -27,6 +17,7 @@ function beepBoop(userInput) {
   return outputArray;
 
 }
+
 //Front-End logic//
 $(document).ready(function() {
   $('form#numbers').submit(function(event) {

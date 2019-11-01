@@ -1,3 +1,17 @@
 #output {
   display: none;
 }
+
+.jumbotron {
+  text-align: center;
+}
+#numbers {
+  text-align: center;
+}
+body {
+  background-image: url('https://i.ytimg.com/vi/rpWrtXyEAN0/maxresdefault.jpg');
+}
+
+#textLabel {
+  color: white;
+}
