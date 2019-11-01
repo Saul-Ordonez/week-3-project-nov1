@@ -1,4 +1,5 @@
 //Back-End logic//
+
 function beepBoop(userInput) {
   var outputArray = []
 
@@ -20,7 +21,7 @@ $(document).ready(function() {
   $('form#numbers').submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($('input#inputNumbers').val());
-    $('#results').append(beepBoop(userInput));
+    $('#results').text(beepBoop(userInput));
     $('#output').show();
   });
 });
