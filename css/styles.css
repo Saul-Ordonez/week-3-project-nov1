@@ -4,12 +4,15 @@
 
 .jumbotron {
   text-align: center;
+  background-image: url('https://i.ytimg.com/vi/rpWrtXyEAN0/maxresdefault.jpg');
+  text-shadow: black;
+
 }
 #numbers {
   text-align: center;
 }
 body {
-  background-image: url('https://i.ytimg.com/vi/rpWrtXyEAN0/maxresdefault.jpg');
+ background-color: #063015;
 }
 
 #textLabel {
