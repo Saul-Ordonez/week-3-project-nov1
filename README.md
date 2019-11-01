@@ -8,6 +8,18 @@
 
 This webpage application will take in user input in the form of positive whole integers and, depending on the number entered, will produce a result list of numbers starting from zero to the input number and replacing all numbers with '3' with a specified phrase, '2' with a different specified phrase, and '1' with a further different specified phrase. The rules for which exception takes place is a hierarchy from the rule for '3' down to the rule for '1'.
 
+## Specs
+
+Behavior | Input | Output
+--- | --- | ---
+ **Numbers that contain a 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that"** | User input: "3" | Output: "I'm sorry, Dave. I'm afraid I can't do that"
+ **Numbers that contain a 2 are replaced with "Boop!"** | User Input: "2" | Output: "Boop!"
+ **Numbers that contain a 1 are replaced with** | Input: "1"  Output: "Beep!"
+ **Numbers that contain neither 3, 2, or 1 output number** | User input: "4" | Output: "4"
+ **Numbers above 0 that contain a 1 are replaced with "Beep!" and 1 takes priority** | User Input: "11" | Output:(0, "Beep!", "Boop!"... "Beep!")
+ **Numbers above 0 that contain a 2 are replaced with "Boop!" and 1 takes priority** | User Input: "24" | Output: (0, "Beep!", "Boop!"... "Boop!")
+ **Numbers above 0 that contain a 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that" and 3 takes priority** | User Input: "13" | Output: (0, "Beep!", "Boop!"... "I'm sorry, Dave. I'm afraid I can't do that")
+
 ## Setup/Installation Requirements
 
 Clone GitHub project repository and open index file into internet browser. This project was tested and works with Google Chrome browser.
