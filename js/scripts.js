@@ -19,8 +19,9 @@ function beepBoop(userInput) {
       outputArray.push(' Boop! ');
     } else if (i.toString().includes(1)) {
       outputArray.push(' Beep! ');
-    } else {
+    }  else {
       outputArray.push(' ' + i + ' ');
+
     }
   }
   return outputArray;
