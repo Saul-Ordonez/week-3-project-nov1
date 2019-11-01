@@ -14,20 +14,20 @@ function beepBoop(userInput) {
   var outputArray = [];
 
   for (i = 0; i < userInput.length; i++); {
-    if (i === 3) {
+    if ((i.toString()).includes("3")) {
       outputArray.push(" I'm sorry Dave, I'm afraid I cannot do that. ");
     }
-    else if (i === 2) {
+    else if ((i.toString()).includes("2")) {
       outputArray.push(' boop! ');
     }
-    else if (i === 1) {
+    else if ((i.toString()).includes("1")) {
       outputArray.push(' beep! ');
     }
     else {
       outputArray.push(i);
     }
   }
-  return outputArray;
+  return outputArray.join();
 
 }
 
@@ -36,6 +36,6 @@ $(document).ready(function() {
   $('form#numbers').submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($('input#inputNumbers').val());
-    $('#results').text((userInput));
+    $('#results').text(beepBoop(userInput));
   });
 });
